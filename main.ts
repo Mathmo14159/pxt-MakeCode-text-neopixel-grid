@@ -1,3 +1,6 @@
+input.onButtonPressed(Button.A, function () {
+    showLetter(2, 3, neopixel.rgb(255, 255, 255), 20, "K")
+})
 function showPixel (x: number, y: number, colour: number, brightness: number) {
     strip.setMatrixColor(x, y, colour)
 }
